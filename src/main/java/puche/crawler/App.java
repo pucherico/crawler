@@ -15,8 +15,6 @@ public class App {
         }
         String sourceUrl = args[0];
         String outputDir = args[1];
-        //String sample = "https://www.laverdad.es/murcia/adif-montara-tres-20181013004838-ntvo.html";
-        String sample = "https://www.geeksforgeeks.org/joining-threads-in-java/";
         System.out.println("Welcome to the Image Crawler!");
         App app = new App(new URL(sourceUrl), new File(outputDir));
         app.crawl();
